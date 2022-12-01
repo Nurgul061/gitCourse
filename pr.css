@@ -1,16 +1,42 @@
 *{
     background-color: #e3d3c4;
 }
+.mar{
+    font-family: herman;
+    font-size: 30px;
+    display: flex;
+    letter-spacing: 5px;
+}
+.menu1{
+    display:flex;
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+    padding-top: 20px;
+}
+.menu2{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 650px;
+}
+.menu3{
+    text-decoration: none;
+    margin-left: 50px;
+    color: black;
+    font-size: 20px;
+    font-family: Aktiv Grotesk;
+    cursor: pointer;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+}
 .suret{
-   display: inline-block;
+    margin-top: 100px;
 }
 .kniga{
-    font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: inline-block;
-}
-.mar{
-    font-size: 100px;
-    letter-spacing: 10px;
-    font-weight: 700;
+    font-size: 50px;
+    font-family: Aktiv Grotesk;
+    color: black;
+    letter-spacing: .04em;
+    display: flex;
 }
