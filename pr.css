@@ -1,0 +1,16 @@
+*{
+    background-color: #e3d3c4;
+}
+.suret{
+   display: inline-block;
+}
+.kniga{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+}
+.mar{
+    font-size: 100px;
+    letter-spacing: 10px;
+    font-weight: 700;
+}
