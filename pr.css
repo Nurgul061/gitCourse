@@ -1,7 +1,8 @@
 *{
     background-color: #e3d3c4;
+
 }
-.mar{
+.bookworm{
     font-family: herman;
     font-size: 30px;
     display: flex;
@@ -38,5 +39,12 @@
     font-family: Aktiv Grotesk;
     color: black;
     letter-spacing: .04em;
-    display: flex;
+    text-decoration: none;
+    cursor: auto;
+    margin-top: -200px;
+}
+.center{
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
