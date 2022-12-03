@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    padding: 30px;
+    font-size: 50px;
+    
+}
+.collection{
+    padding: 30px;
+
+}
+.products{
+  font-size: 40px;
+  padding: 10px;
+  padding-left: 40px;
+}
