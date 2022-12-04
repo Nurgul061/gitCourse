@@ -1,59 +1,154 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: rgb(246, 245, 245);
+}
+.border1{
+    background-color: black;
+    width: 1200px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    margin-left: 40px;
+    font-family:  Chancery, cursive;
 }
 .title{
-    padding: 30px;
-    font-size: 50px;
-    
+    margin-top: 30px;
+    font-size: 8vh;
+    display: inline;
+    margin-left: 30px;
+    font-family:  Chancery, cursive;
 }
+#navbar {
+    margin-top: -30px;
+    margin-left: 700px;
+    list-style-type: none;
+    width: 550px;
+    text-align: center;
+    font-family:  Chancery, cursive;
+  }
+  #navbar li { 
+    display: inline; 
+}
+  #navbar a {
+    color: rgb(11, 10, 10);
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
+  }
+  #navbar a:hover {
+    border-radius: 20px 5px;
+    background-color: rgb(234, 232, 232);
+  }
 .about{
-    padding: 30px;
-    padding-left: 200px;
-
+    padding: 5vh;
+    padding-left:34vh;
+    font-family:  Chancery, cursive;
 }
 .citata{
-    padding: 30px;
-    padding-left: 200px;
-    font-size: 80px;
+    padding: 5vh;
+    padding-left:34vh;
+    font-size: 13vh;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold';
 }
 #down{
-    width: 50px;
-    height: 50px;
+    width:8vh;
+    height: 8vh;
     padding-left: 1100px;
 }
 #about-img1{
-    width: 700px;
-    padding-top: 200px;
+    width: 119vh;
+    padding-top: 30vh;
 }
 p{
-    font-size: 15px;
-    margin-top: -450px;
-    margin-left: 800px;
+    font-size: 4vh;
+    margin-top: -76vh;
+    margin-left: 136vh;
 }
 .our{
-    margin-top: 30px;
-    font-size: 70px;
-    margin-left: 800px;
+    margin-top: 5vh;
+    font-size: 12vh;
+    margin-left: 136vh;
 }
 .making{
     border: 1px;
     background:none ;
-    width: 200px;
-    font-size: 15px;
-    margin-left: 800px;
-    margin-top: 100px;
+    width: 34vh;
+    font-size: 4vh;
+    margin-left: 136vh;
+    margin-top: 17vh;
 }
-.about2{
-    margin-top: 200px;
-    margin-left: 800px;
+.abouttext2{
+    display:flex;
+    margin-top: 34vh;
 }
-#about2-img1{
-    height: 500px;
+.number{
+    font-size: 5vh;
+    margin-left: 17vh;
 }
-#about3-img1{
-    width: 200px;
-    height: 300px;
-    margin-left: 200px;
-    margin-top: -300px;
+.text1{
+    margin-top: 17vh;
+    font-size: 12vh;
+    margin-left: 17vh;
+}
+.text2{
+    border: 1px;
+    background:none ;
+    width: 51vh;
+    font-size: 4vh;
+    margin-left: 17vh;
+    margin-top: 17vh;
+}
+#img2{
+    width: 51vh;
+    height: 68vh;
+    margin-left: 127vh;
+    margin-top: -68vh;
+}
+#img3{
+    width:34vh;
+    height: 51vh;
+    margin-left: 161vh;
+    margin-top: -34vh;
+}
+.foot{
+    background-color: black;
+    width: 100%;
+    height: 45vh;
+    color: aliceblue;
+    margin-top: 45vh;
+    
+}
+.box2{
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.anna{
+    text-align: center;
+    font-size: 6vh;
+    font-weight: 400;
+    line-height: 1.1;
+    margin-top: 6vh;
+    font-family: gabriola;
+}
+.fol{
+    font-size: 2.8vh;
+    font-weight: 300;
+    line-height: 1.1;
+    font-family: gabriola;
+}
+.insta{
+    font-size: 3vh;
+    font-weight: 400;
+    text-decoration: none;
+    color: aliceblue;
+    letter-spacing: .2em;
+}
+.icon{
+    text-align: center;
+    margin-top: 10vh;
 }
