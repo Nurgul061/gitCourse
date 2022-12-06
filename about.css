@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: rgb(246, 245, 245);
+    
 }
 .border1{
     background-color: black;
@@ -20,9 +20,8 @@
 }
 #navbar {
     margin-top: -30px;
-    margin-left: 700px;
+    margin-left: 50px;
     list-style-type: none;
-    width: 550px;
     text-align: center;
     font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
@@ -35,7 +34,6 @@
     text-decoration:none;
     font-weight: bold;
     display: inline-block;
-    width: 100px;
   }
   #navbar a:after {
   
@@ -55,46 +53,52 @@
 #navbar a:hover:after { 
     width: 100%; 
 }
+.shop{
+    margin-left: 800px;
+    margin-top: -30px;
+}
+
 .about{
     padding: 5vh;
     padding-left:34vh;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
 }
 
 .citation {
     padding-top: 10vh;
-    padding-left:0vh;
-    font-size: 8vh;
+    padding-left:15vw;
+    font-size: 10vh;
+    font-weight: 100;
     font-family:Georgia, 'Times New Roman', Times, serif; 
-        display: flex;
-      }
-      
-      span {
-        text-transform: uppercase;
-        font-weight: 500;
-        animation: .3s 0s 1 text normal both running linear;
-        display: block;
-      }
-      
-      @keyframes text {
-        0% {
-          transform: translateY(-40px) rotate(45deg);
-          opacity: .0;
+    display: flex;
+    letter-spacing: 8px;
+    position: relative;
+    animation: text 4s 1;
+     }
+    @keyframes text{
+        0%{
+            color: #131313;
+            margin-bottom: -20px;
         }
-      }
- 
-
+        30%{
+            letter-spacing: 25px;
+            margin-bottom: -20px;
+        }
+        
+        }
 #down{
     width:8vh;
     height: 8vh;
     padding-left: 1100px;
+    padding-top: 10vh;
 }
 #about-img1{
     width: 119vh;
-    padding-top: 10vh;
+    padding-top: 12vh;
 }
 p{
-    font-size: 4vh;
+    font-size: 2vh;
     margin-top: -76vh;
     margin-left: 136vh;
 }
@@ -106,61 +110,168 @@ p{
 .making{
     border: 1px;
     background:none ;
-    width: 34vh;
-    font-size: 4vh;
+    width: 30vh;
+    font-size: 2vh;
     margin-left: 136vh;
     margin-top: 17vh;
 }
-.abouttext2{
-    display:flex;
-    margin-top: 34vh;
+
+.border2{
+    width: 500px;
 }
-.number{
-    font-size: 5vh;
+
+#spoilerbtn{
+    font-size: 40px;
+    margin-top: 30vh;
+    margin-left: 10vh;
+  }
+#text1{
+    margin-top: 10vh;
+    font-size: 10vh;
     margin-left: 17vh;
 }
-.text1{
-    margin-top: 5vh;
-    font-size: 12vh;
-    margin-left: 17vh;
-}
-.text2{
+#text2{
     border: 1px;
     background:none ;
     width: 51vh;
-    font-size: 4vh;
+    font-size: 3vh;
     margin-left: 17vh;
     margin-top: 10vh;
 }
-#img2{
+
+#spoilerbtn1{
+    font-size: 40px;
+    margin-top: 10vh;
+    margin-left: 10vh;
+  }
+#text3{
+    margin-top: 10vh;
+    font-size: 10vh;
+    margin-left: 17vh;
+}
+#text4{
+    border: 1px;
+    background:none ;
+    width: 51vh;
+    font-size: 3vh;
+    margin-left: 17vh;
+    margin-top: 10vh;
+}
+
+#spoilerbtn2{
+    font-size: 40px;
+    margin-top: 10vh;
+    margin-left: 10vh;
+  }
+#text5{
+    margin-top: 10vh;
+    font-size: 10vh;
+    margin-left: 17vh;
+}
+#text6{
+    border: 1px;
+    background:none ;
+    width: 51vh;
+    font-size: 3vh;
+    margin-left: 17vh;
+    margin-top: 10vh;
+}
+.img2{
+    display:flex;
     width: 51vh;
     height: 68vh;
-    margin-left: 127vh;
+    margin-left: 140vh;
     margin-top: -68vh;
 }
-#img3{
+.img3{
+    display:flex;
     width:34vh;
     height: 51vh;
     margin-left: 161vh;
-    margin-top: -34vh;
-        opacity:0; /*Элемент полностью прозрачный (невидимый)*/
-        transition: 1s; /*Скорость перехода состояния элемента*/
-        animation: show 3s 1; /* Указываем название анимации, её время и количество повторов*/
-        animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
-        animation-delay: 1s; /* Задержка перед началом */
+    margin-top: -30vh;
+   
 }
-        @keyframes show{
-            0%{
-            opacity:0;
-            }
-            100% {
-            opacity:1;
-            }
-            }
-        
-
-.makers{
+.imgs{
+    display: inline-block;
+    margin-top: 200px;
+}
+.foot{ 
+    background-color: black; 
+    width:1265px; 
+    height: 45vh; 
+    color: aliceblue; 
+    margin-top: 45vh; 
+     
+} 
+.box2{ 
+    margin-top: 15vh; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around; 
+} 
+.anna{ 
+    text-align: center; 
+    font-size: 6vh; 
+    font-weight: 400; 
+    line-height: 1.1; 
+    margin-top: 6vh; 
+    font-family: gabriola; 
+} 
+.fol{ 
+    font-size: 2.8vh; 
+    font-weight: 300; 
+    line-height: 1.1; 
+    font-family: gabriola; 
+} 
+.insta{ 
+    font-size: 3vh; 
+    font-weight: 400; 
+    text-decoration: none; 
+    color: aliceblue; 
+    letter-spacing: .2em; 
+} 
+.icon{ 
+    text-align: center; 
+    margin-top: 10vh; 
+}
+.change{
+    border: none;
+    font-size: 40px;
+    border-radius: 10px;
+}
+#ch2,#ch3{
+    color: rgb(219, 214, 214);
+    margin-left: 20px;
+}
+#label1{
+    padding-top: 50px;
     font-size: 50px;
-    text-align: center;
-    margin-top: 150px;
+    font-family: Saol Display;
+}
+#label{
+    font-size: 25px;
+    line-height: 25px;
+}
+.lab{
+    font-size: 40px;
+    margin-top: 10vh;
+    margin-left: 10vh;
+}
+.suret{
+    width: 300px;
+    float: right;
+}
+
+#ais,#ais2{
+    font-size: 40px;
+    border: none;
+}
+.makers{
+    font-size: 40px;
+    margin-left: 550px;
+    margin-top: 100px;
+}
+.img4{
+    width: 200px;
+    height: 300px;
 }
