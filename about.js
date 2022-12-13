@@ -34,3 +34,22 @@ function change3(ex){
   document.getElementById("ch2").style.color="lightgrey";
   document.getElementById("ch3").style.color="black";
 }
+
+pages = 5;
+function listNext(page) {
+    if (page == 1)
+     prev_page = pages;
+    else
+    prev_page = page-1;
+    if (page == pages)
+   next_page = 1;
+  else
+  next_page = page+1;
+    prev_id = "feed_"+prev_page;
+    prev_elem = document.getElementById(prev_id);
+    prev_elem.style.display = "none";
+    id = "feed_"+page;
+    elem = document.getElementById(id);
+    elem.style.display = "block";
+    document.getElementById('button').innerHTML = '<input type="button" onclick="listNext('+next_page+')" value=">>" />';
+}
