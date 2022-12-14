@@ -21,26 +21,20 @@ writeTextByJS(
          "WELCOME!",
       ]
   );
-  var height = $(".list li:first-child").outerHeight();
-// Get the number of items
+var height = $(".list li:first-child").outerHeight();
 var itemLength = $(".list li").length
-// Set the currentItem to 0
 var currentItem = 0
-// Set the initial scroll to height so the first interval goes to item[1]
 var scroll = height
 
 setInterval(function() {
-
-  $('.list').animate({
+ $('.list').animate({
     scrollTop: scroll
   }, 500);
-  // Increase the step or return to 0 if it's greater than the length of items
   if (currentItem < itemLength - 1) {
     currentItem ++
   } else {
     currentItem = 0
   }
-  // Set the scroll based on above changes
   scroll = currentItem * height
 
 }, 3000);

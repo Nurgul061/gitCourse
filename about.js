@@ -51,5 +51,5 @@ function listNext(page) {
     id = "feed_"+page;
     elem = document.getElementById(id);
     elem.style.display = "block";
-    document.getElementById('button').innerHTML = '<input type="button" onclick="listNext('+next_page+')" value=">>" />';
+    document.getElementById('button').innerHTML = `<input type="button" onclick="listNext(${next_page})" value=">>" />`;
 }

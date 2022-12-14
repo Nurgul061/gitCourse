@@ -151,7 +151,7 @@ p{
 
 #spoilerbtn{
     font-size: 40px;
-    margin-top: 30vh;
+    margin-top: 50vh;
     margin-left: 10vh;
   }
 
@@ -250,24 +250,41 @@ p{
     width: 200px;
     height: 300px;
 }
-#spoilerbtn1{
-    font-size: 40px;
-    margin-top: 30vh;
-    margin-left: 10vh;
-  }
 .feed1{
-    margin-top: 100px;
+    margin-top: 200px;
     margin-left:70px;
-    font-size: 30px;
+    font-size: 40px;
 }
 .feedback{
     margin-left:70px;
-    margin-top: 30px;
+    margin-top: 50px;
+}
+.fed{
+    font-size: 30px;
 }
 .feed{
-        display: none;
+    font-size: 30px;
+    display: none;
     }
 #button{
-    margin-left: ;
+    margin-left: 550px;
 }
+input{
+    background-color:#fff;
+    border: none;
+    color: #131313;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+}
+#imglast{
+    width: 560px;
+    height: 300px;
+    margin-left: 700px;
+    margin-top: -400px;
+}
+
+@media screen {
     
+}
