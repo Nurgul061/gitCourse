@@ -53,3 +53,20 @@ function listNext(page) {
     elem.style.display = "block";
     document.getElementById('button').innerHTML = `<input type="button" onclick="listNext(${next_page})" value=">>" />`;
 }
+(function () {
+  var square = document.querySelector('.img3');
+
+  var observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (typeof getCurrentAnimationPreference === 'function' && !getCurrentAnimationPreference()) {
+        return;
+      }
+
+      if (entry.isIntersecting) {
+        entry.target.classList.add('img3-animation');
+      }
+    });
+  });
+
+  observer.observe(square);
+})();

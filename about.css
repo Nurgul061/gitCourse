@@ -166,9 +166,29 @@ p{
     display:flex;
     width:15vw;
     height: 50vh;
+    margin-top: -230px;
     margin-left: 80vw;
-    margin-top: -30vh;
 }
+.img3-animation {
+    animation: wipe-enter 5s 1
+  }
+  @keyframes wipe-enter {
+    0% {
+      transform: scale(0, .025)
+    }
+    50% {
+      transform: scale(1, .025)
+    }
+  }
+  
+  .wrap {
+    display: flex;
+  }
+  .stage {
+    position: relative;
+    height: 250px;
+    margin-top: 110vh;
+  }
 .foot{ 
     background-color: black; 
     width:99vw; 
@@ -251,13 +271,13 @@ p{
     height: 300px;
 }
 .feed1{
-    margin-top: 200px;
+    margin-top: 100px;
     margin-left:70px;
     font-size: 40px;
 }
 .feedback{
     margin-left:70px;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .fed{
     font-size: 30px;
@@ -282,9 +302,6 @@ input{
     width: 560px;
     height: 300px;
     margin-left: 700px;
-    margin-top: -400px;
+    margin-top: -300px;
 }
 
-@media screen {
-    
-}
