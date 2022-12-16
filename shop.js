@@ -1,24 +1,18 @@
 function writeTextByJS(id, text, speed){
-
-    var ele = document.getElementById(id),
-      txt = text.join("").split("");
-
-  var interval = setInterval(function(){
-
-      if(!txt[0]){
-
-            return clearInterval(interval);
-     };
-
-      ele.innerHTML += txt.shift();
-   }, speed != undefined ? speed : 300);
-
-   return false;
+var ele = document.getElementById(id),
+txt = text.join("").split("");
+var interval = setInterval(function(){
+if(!txt[0]){
+return clearInterval(interval);
+};
+ele.innerHTML += txt.shift();
+}, speed != undefined ? speed : 300);
+return false;
 };
 writeTextByJS(
     "citation",
      [
-         "WELCOME!",
+      "WELCOME!",
       ]
   );
 var height = $(".list li:first-child").outerHeight();

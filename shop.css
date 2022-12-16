@@ -1,4 +1,5 @@
 *{
+    width: auto;
     margin: 0;
 }
 .header{
@@ -87,7 +88,6 @@
     margin-left: 450px;
     margin-top: -35px;
 }
-
 #citation {
     color: #fff;
     padding: 40vh;
@@ -98,32 +98,32 @@
     display: flex;
 }
 .center{
-    width: 1260px;
+    width: 1300px;
     background:url(https://cdn.shopify.com/s/files/1/0515/3633/0928/files/RinoPelle_15dec_2021_46525_copy_900x.jpg?v=1658915664);
 }
 .color{
     background-color: rgb(252, 241, 228);
-    width: 100%;
+    width: 1300px;
     height: 600px;
 }
 .color1{
-    background-color: rgb(245, 232, 217);
-    width: 100%;
+    background-color: rgb(252, 241, 228);
+    width: 1300px;
     height: 600px;
 }
 .color2{
-    background-color: rgb(250, 231, 209);
-    width: 100%;
+    background-color: rgb(252, 241, 228);
+    width: 1300px;
     height: 600px;
 }
 .color3{
-    background-color: rgb(252, 228, 201);
-    width: 100%;
+    background-color: rgb(252, 241, 228);
+    width: 1300px;
     height: 600px;
 }
 .color4{
     background-color:#fff;
-    width: 100%;
+    width: 1300px;
     height: 200px;
 }
 .thank{
@@ -176,9 +176,9 @@
    margin-top: -170px;
   }
   
-  .foot{ 
+.foot{ 
     background-color: black; 
-    width:99vw; 
+    width:1300px; 
     height: 45vh; 
     color: aliceblue; 
     margin-top: -10vh; 

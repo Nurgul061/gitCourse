@@ -96,7 +96,7 @@
     padding-left: 100px;
     font-size: 8vh;
     font-weight: 100;
-    font-family:Georgia, 'Times New Roman', Times, serif; 
+    font-family: Monotype Corsiva; 
     display: flex;
     letter-spacing: 2vw;
     position: relative;
@@ -186,8 +186,9 @@ p{
   .change{
     background-color: #fff;
     border: none;
-    font-size: 35px;
+    font-size: 20px;
     border-radius: 10px;
+    margin-left: 20px;
 }
 #ch2,#ch3{
     color: rgb(205, 198, 198);
@@ -337,14 +338,14 @@ h4{
     }
     p{
         margin-top: 300px;
-        margin-left: 370px;
+        margin-left: 350px;
         font-size: 30px;
      }
      .our{
         width: 500px;
         margin-top: 50px;
         font-size: 50px;
-        margin-left: 200px;
+        margin-left: 180px;
      }
      .making{
         margin-top: 100px;
@@ -360,36 +361,15 @@ h4{
      .change{
         background-color: #fff;
         border: none;
-        font-size: 30px;
+        font-size: 20px;
         border-radius: 10px;
+        margin-left: 30px;
     }
     #ch2,#ch3{
         color: rgb(205, 198, 198);
         margin-left: 20px;
     }
-    #label1{
-        padding-top: 50px;
-        font-size: 45px;
-        font-family: Saol Display;
-    }
-    #label{
-        font-size: 20px;
-        line-height: 25px;
-    }
-    .lab{
-        font-size: 40px;
-        margin-top: 10vh;
-        margin-left: 10vh;
-    }
-    .suret{
-        width: 00px;
-        float: right;
-    }
     
-    #ais,#ais2{
-        font-size: 40px;
-        border: none;
-    }
     .img4{
         width: 200px;
         height: 300px;
@@ -405,19 +385,19 @@ h4{
     }
     p{
         margin-top: 300px;
-        margin-left: 370px;
+        margin-left: 350px;
         font-size: 30px;
      }
      .our{
         width: 500px;
         margin-top: 50px;
         font-size: 50px;
-        margin-left: 200px;
+        margin-left: 150px;
      }
      .making{
         margin-top: 100px;
         width: 400px;
-        margin-left: 200px;
+        margin-left: 190px;
         font-size: 30px;
      }
      #about-img1{
@@ -426,40 +406,18 @@ h4{
          margin-left: 70px;
      }
      .change{
+        margin-left: 30px;
         background-color: #fff;
         border: none;
-        font-size: 30px;
+        font-size: 10px;
         border-radius: 10px;
     }
     #ch2,#ch3{
         color: rgb(205, 198, 198);
         margin-left: 20px;
     }
-    #label1{
-        padding-top: 50px;
-        font-size: 45px;
-        font-family: Saol Display;
-    }
-    #label{
-        font-size: 20px;
-        line-height: 25px;
-    }
-    .lab{
-        font-size: 40px;
-        margin-top: 10vh;
-        margin-left: 10vh;
-    }
-    .suret{
-        width: 00px;
-        float: right;
-    }
-    
-    #ais,#ais2{
-        font-size: 40px;
-        border: none;
-    }
     .img4{
-        width: 200px;
+        width: 500px;
         height: 300px;
     }
 }
