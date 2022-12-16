@@ -78,7 +78,7 @@
 }
 .shop{
     margin-left: 75vw;
-    margin-top: -5vh;
+    margin-top: -4vh;
 }
 #title{
     font-size: 40px;
@@ -89,14 +89,11 @@
     margin-top: -5vh;
 }
 .about{
-    padding: 20vh;
-    padding-left:25vh;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 2vh;
+    padding: 120px 100px;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
 }
-
-.citation {
-    padding-left:10vw;
+.citation{
+    padding-left: 100px;
     font-size: 8vh;
     font-weight: 100;
     font-family:Georgia, 'Times New Roman', Times, serif; 
@@ -113,46 +110,43 @@
         30%{
             letter-spacing: 30px;
             margin-bottom: -20px;
-        }
-        
-        }
-#down{
-    width:8vh;
-    height: 8vh;
-    padding-left: 90vw;
-    padding-top: 10vh;
+        }       
 }
-#about-img1{
-    width: 119vh;
-    padding-top: 12vh;
+.knopka{
+    width: 40px;
+    height: 40px;
+    padding-left:85vw;
+    padding-top: 50px;
+}
+#about1{
+    margin-top: 250px;
 }
 p{
-    font-size: 2vh;
-    margin-top: -76vh;
-    margin-left: 136vh;
+   margin-left: 750px;
 }
 .our{
-    margin-top: 5vh;
-    font-size: 12vh;
-    margin-left: 136vh;
+   width: 300px;
+   margin-top: 30px;
+   margin-left: 750px;
+   font-size: 50px;
 }
 .making{
-    border: 1px;
-    background:none ;
-    width: 30vh;
-    font-size: 2vh;
-    margin-left: 136vh;
-    margin-top: 17vh;
+   margin-top: 100px;
+   width: 200px;
+   margin-left: 750px;
 }
-
+#about-img1{
+    width: 600px;
+    float: left;
+    margin-left: 30px;
+}
 .border2{
     width: 40vw;
 }
 
 #spoilerbtn{
-    font-size: 40px;
-    margin-top: 50vh;
-    margin-left: 10vh;
+    margin-top: 40vh;
+    margin-left: 60px;
   }
 
 .img2{
@@ -189,9 +183,112 @@ p{
     height: 250px;
     margin-top: 110vh;
   }
+  .change{
+    background-color: #fff;
+    border: none;
+    font-size: 35px;
+    border-radius: 10px;
+}
+#ch2,#ch3{
+    color: rgb(205, 198, 198);
+    margin-left: 20px;
+}
+#label1{
+    padding-top: 50px;
+    font-size: 45px;
+    font-family: Saol Display;
+}
+#label{
+    font-size: 20px;
+    line-height: 25px;
+}
+.lab{
+    font-size: 40px;
+    margin-top: 10vh;
+    margin-left: 10vh;
+}
+.suret{
+    width: 300px;
+    float: right;
+}
+
+#ais,#ais2{
+    font-size: 40px;
+    border: none;
+}
+.img4{
+    width: 200px;
+    height: 300px;
+}
+.feed1{
+    margin-top: 100px;
+    margin-left:70px;
+    font-size: 40px;
+}
+.feedback{
+    margin-left:70px;
+    margin-top: 100px;
+}
+.fed{
+    font-size: 30px;
+}
+.feed{
+    font-size: 30px;
+    display: none;
+    }
+#button{
+    margin-left: 350px;
+    margin-top: 60px;
+}
+input{
+    background-color:#fff;
+    border: none;
+    color: #131313;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+}
+#imglast{
+    display: block;
+    width: 560px;
+    height: 300px;
+    margin-left: 50vw;
+    margin-top: -300px;
+}
+.text2{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 50px;
+}
+.partners{
+    padding: 40px ;
+    display: inline-block;
+    padding-left: 80px;
+ 
+}
+#qr{
+ width: 200px;
+ height: 100px;
+ padding: 30px;
+}
+.partner{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.container {
+    padding: 50px 55px;
+    display: table;
+}
+  .title1 {
+    color: grey;
+}
+h4{
+    margin-top: 30px;
+}
+  
 .foot{ 
     background-color: black; 
-    width:99vw; 
+    width:100%; 
     height: 45vh; 
     color: aliceblue; 
     margin-top: 25vh; 
@@ -228,80 +325,141 @@ p{
     text-align: center; 
     margin-top: 10vh; 
 }
-.change{
-    background-color: #fff;
-    border: none;
-    font-size: 35px;
-    border-radius: 10px;
-}
-#ch2,#ch3{
-    color: rgb(205, 198, 198);
-    margin-left: 20px;
-}
-#label1{
-    padding-top: 50px;
-    font-size: 45px;
-    font-family: Saol Display;
-}
-#label{
-    font-size: 20px;
-    line-height: 25px;
-}
-.lab{
-    font-size: 40px;
-    margin-top: 10vh;
-    margin-left: 10vh;
-}
-.suret{
-    width: 300px;
-    float: right;
-}
 
-#ais,#ais2{
-    font-size: 40px;
-    border: none;
-}
-.makers{
-    font-size: 40px;
-    margin-left: 550px;
-    margin-top: 100px;
-}
-.img4{
-    width: 200px;
-    height: 300px;
-}
-.feed1{
-    margin-top: 100px;
-    margin-left:70px;
-    font-size: 40px;
-}
-.feedback{
-    margin-left:70px;
-    margin-top: 100px;
-}
-.fed{
-    font-size: 30px;
-}
-.feed{
-    font-size: 30px;
-    display: none;
+
+@media screen  and (max-width: 768px){
+    .knopka{
+        display: none;
+        width: 40px;
+        height: 40px;
+        padding-left:85vw;
+        padding-top: 50px;
     }
-#button{
-    margin-left: 550px;
+    p{
+        margin-top: 300px;
+        margin-left: 370px;
+        font-size: 30px;
+     }
+     .our{
+        width: 500px;
+        margin-top: 50px;
+        font-size: 50px;
+        margin-left: 200px;
+     }
+     .making{
+        margin-top: 100px;
+        width: 400px;
+        margin-left: 200px;
+        font-size: 30px;
+     }
+     #about-img1{
+         width: 110%;
+         height: 500px;
+         margin-left: 60px;
+     }
+     .change{
+        background-color: #fff;
+        border: none;
+        font-size: 30px;
+        border-radius: 10px;
+    }
+    #ch2,#ch3{
+        color: rgb(205, 198, 198);
+        margin-left: 20px;
+    }
+    #label1{
+        padding-top: 50px;
+        font-size: 45px;
+        font-family: Saol Display;
+    }
+    #label{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .lab{
+        font-size: 40px;
+        margin-top: 10vh;
+        margin-left: 10vh;
+    }
+    .suret{
+        width: 00px;
+        float: right;
+    }
+    
+    #ais,#ais2{
+        font-size: 40px;
+        border: none;
+    }
+    .img4{
+        width: 200px;
+        height: 300px;
+    }
 }
-input{
-    background-color:#fff;
-    border: none;
-    color: #131313;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 40px;
+@media screen  and (max-width: 567px){
+    .knopka{
+        display: none;
+        width: 40px;
+        height: 40px;
+        padding-left:85vw;
+        padding-top: 50px;
+    }
+    p{
+        margin-top: 300px;
+        margin-left: 370px;
+        font-size: 30px;
+     }
+     .our{
+        width: 500px;
+        margin-top: 50px;
+        font-size: 50px;
+        margin-left: 200px;
+     }
+     .making{
+        margin-top: 100px;
+        width: 400px;
+        margin-left: 200px;
+        font-size: 30px;
+     }
+     #about-img1{
+         width: 130%;
+         height: 400px;
+         margin-left: 70px;
+     }
+     .change{
+        background-color: #fff;
+        border: none;
+        font-size: 30px;
+        border-radius: 10px;
+    }
+    #ch2,#ch3{
+        color: rgb(205, 198, 198);
+        margin-left: 20px;
+    }
+    #label1{
+        padding-top: 50px;
+        font-size: 45px;
+        font-family: Saol Display;
+    }
+    #label{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .lab{
+        font-size: 40px;
+        margin-top: 10vh;
+        margin-left: 10vh;
+    }
+    .suret{
+        width: 00px;
+        float: right;
+    }
+    
+    #ais,#ais2{
+        font-size: 40px;
+        border: none;
+    }
+    .img4{
+        width: 200px;
+        height: 300px;
+    }
 }
-#imglast{
-    width: 560px;
-    height: 300px;
-    margin-left: 700px;
-    margin-top: -300px;
-}
-
