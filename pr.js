@@ -7,4 +7,25 @@ function changeBg(){
         navbar.classList.add('bgColor');
     }
 }
-window.addEventListener('scroll', changeBg);
+
+(function () {
+    var square = document.querySelector('.suret33');
+  
+    var observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (typeof getCurrentAnimationPreference === 'function' && !getCurrentAnimationPreference()) {
+          return;
+        }
+  
+        if (entry.isIntersecting) {
+          entry.target.classList.add('suret33-animation');
+        }
+      });
+    });
+  
+    observer.observe(square);
+  })();
+function kelesi(){
+    window.location.href='pr.html';
+}
+  
