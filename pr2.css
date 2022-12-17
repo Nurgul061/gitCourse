@@ -52,7 +52,7 @@
     display: inline; 
 }
   .navbar a {
-    color: white;
+    color: black;
     padding: 5px 10px;
     text-decoration:none;
     font-weight: bold;
@@ -92,6 +92,11 @@
     transition: all 1s;
     background-color: white;
     border-bottom: 1px solid lightgray;
+    height: auto;
+    color: #131313;
+}
+.colorText{
+    color: black;
 }
 .vid{
     width: 100%;
