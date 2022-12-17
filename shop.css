@@ -90,46 +90,36 @@
 #citation {
     color: rgb(10, 10, 10);
     text-align: center;
-    margin-top: -250px;
     margin-left: -500px;
     font-size: 20vh;
     font-weight: 100;
     font-family: Monotype Corsiva; 
     display: flex;
+    margin-top: -250px;
 }
 .center{
     padding: 150px 550px;
 }
-#img1{
-    width: 400px;
+.img1{
+    width: 600px;
     height: 400px;
-    margin-left: 250px;
-    border-radius: 20%;
+    margin-left: 150px;
+    margin-top: 10px;
 }
 .color{
-    margin-top: 100px;
-    background-color: rgb(252, 241, 228);
-    width: 100%;
+    margin-top: 30px;
+    background-color: rgb(248, 244, 243);
+    width: 1300px;
     height: 600px;
 }
 .color1{
-    background-color: rgb(252, 241, 228);
-    width: 100%;
-    height: 600px;
-}
-.color2{
-    background-color: rgb(252, 241, 228);
-    width: 100%;
-    height: 600px;
-}
-.color3{
-    background-color: rgb(252, 241, 228);
-    width: 100%;
+    background-color: rgb(248, 244, 243);
+    width: 1300px;
     height: 600px;
 }
 .color4{
     background-color:#fff;
-    width: 100%;
+    width: 1300px;
     height: 200px;
 }
 .thank{
@@ -243,8 +233,32 @@
   
   .overlay1 {
     position: absolute;
-    bottom: 0;
+    bottom: 100%;
     left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+  }
+  
+  .container1:hover .overlay1 {
+    bottom: 0;
+    height: 100%;
+  }
+  #img4{
+    width: 200px;
+    margin-left: 200px;
+    margin-top: 50px;
+  }
+  .container2 {
+    position: relative;
+    width: 50%;
+  }
+  .overlay2 {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
     right: 0;
     overflow: hidden;
     width: 0;
@@ -252,20 +266,9 @@
     transition: .5s ease;
   }
   
-  .container1:hover .overlay1 {
+  .container2:hover .overlay2 {
     width: 100%;
-  }
-  
-  .text1 {
-    white-space: nowrap; 
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    overflow: hidden;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    left: 0;
   }
   
 .foot{ 
@@ -273,7 +276,7 @@
     width:100%; 
     height: 45vh; 
     color: aliceblue; 
-    margin-top: -10vh; 
+    margin-top: 20vh; 
      
 } 
 .box2{ 
@@ -307,46 +310,40 @@
     text-align: center; 
     margin-top: 10vh; 
 }
-@media screen and(max-width: 786px){
+@media screen and (max-width: 786px){
     #citation {
-        color: #fff;
-        padding: 40vh;
-        padding-left:25vw;
-        font-size: 10vh;
-        font-family:Georgia, 'Times New Roman', Times, serif; 
-        display: flex;
+        color: rgb(10, 10, 10);
+        text-align: center;
+        margin-left: -200px;
+        font-size: 20vh;
+        font-weight: 100;
+        font-family: Monotype Corsiva; 
+        margin-top: -600px;
     }
-    .center{
-        width: 1250px;
+    .img1{
+        width: 600px;
+        height: 400px;
+        margin-left: -200px;
+        margin-top: 400px;
     }
     .color{
-        background-color: rgb(252, 241, 228);
-        width: 100%;
-        height: 600px;
+        margin-top: 500px;
+        width: 1300px;
     }
     .color1{
-        background-color: rgb(245, 232, 217);
-        width: 100%;
-        height: 600px;
-    }
-    .color2{
-        background-color: rgb(250, 231, 209);
-        width: 100%;
-        height: 600px;
-    }
-    .color3{
-        background-color: rgb(252, 228, 201);
-        width: 200%;
-        height: 600px;
+        background-color: rgb(248, 244, 243);
+        width: 1300px;
+        height: 800px;
     }
     .title1{
-      text-align: center;
-      padding: 50px;
-      font-size: 100px;
-    }
-    .list {
-        margin-left: 400px;
-        width: 500px;
+        text-align: center;
+        padding: 50px;
+        font-size: 150px;
+        font-family:  Monotype Corsiva;
+      }
+      .list {
+        margin-left: 200px;
+        width: 900px;
         height: 350px;
         overflow: auto;
         list-style: none;
@@ -357,45 +354,155 @@
         padding: 50px 0px;
       }
       li:last-of-type {
-      margin-bottom: 150px;
+      margin-bottom: 0px;
       }
       .box1{
-        width: 700px;
-        height: 250px;
+        width: 900px;
+        height: 700px;
         background-color: #fff;
         border-radius: 10px;
       }
-      #eco1{
-        width: 500px;
-        height: 200px;
-        border-radius: 30px;
-        margin-top: 25px;
-      }
       .text1{
-       border: 1px solid;
-       border: none;
-       width: 200px;
-       margin-left: 160px;
-       margin-top: -170px;
+        border: 1px solid;
+        border: none;
+        width: 400px;
+        margin-left: 450px;
+        margin-top: -350px;
+        font-size: 40px;
+       }
+       #eco1{
+        width: 400px;
+        height: 400px;
+        border-radius: 30px;
+        margin-top: 40px;
+      }
+      .pay{
+        margin-left: 200px;
+        margin-top: 100px;
+        width:300px;
+        font-size: 40px;
+
+    }
+    .ments{
+        margin-left: 200px;
+        margin-top: 30px;
+        width: 500px;
+        font-size: 40px;
+    }
+    #img2{
+        width: 700px;
+        height: 50px;
+        margin-left: 190px;
+        margin-top: 70px;
+    }
+    #img3{
+        width: 600px;
+        height: 200px;
+        margin-left: 200px;
+        margin-top: 50px;
+    }
+    .container {
+        position: relative;
+        width: 50%;
+      }
+       .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        transition: .5s ease;
+        display: none;
       }
       
-      .foot{ 
+      .container:hover .overlay {
+        height: 100%;
+      }
+      
+      .text {
+        white-space: nowrap; 
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        overflow: hidden;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+      }
+      .container1 {
+        position: relative;
+        width: 50%;
+      }
+      
+      .overlay1 {
+        position: absolute;
+        bottom: 100%;
+        left: 0;
+        right: 0;
+        overflow: hidden;
+        width: 100%;
+        height:0;
+        transition: .5s ease;
+        display: none;
+      }
+      
+      .container1:hover .overlay1 {
+        bottom: 0;
+        height: 100%;
+      }
+      #img4{
+        width: 200px;
+        margin-left: 200px;
+        margin-top: 50px;
+      }
+      .container2 {
+        position: relative;
+        width: 50%;
+      }
+      .overlay2 {
+        position: absolute;
+        bottom: 0;
+        left: 100%;
+        right: 0;
+        overflow: hidden;
+        width: 0;
+        height: 100%;
+        transition: .5s ease;
+        display: none;
+      }  
+      .thank{
+        font-size: 80px;
+        text-align: center;
+        margin-top: 200px;
+        font-family:  Monotype Corsiva;
+        width: 800px;
+        margin-left: 200px;
+    }
+    .textlast{
+        font-size: 50px;
+        margin-left: 300px ;
+        margin-top: 50px;
+        font-family:  Monotype Corsiva;
+        width: 600px;
+    }  
+    .foot{ 
         background-color: black; 
-        width:99vw; 
-        height: 45vh; 
+        width:100%; 
+        height: 500px; 
         color: aliceblue; 
-        margin-top: -10vh; 
+        margin-top: 25vh; 
          
     } 
-    .box2{ 
-        margin-top: 15vh; 
-        display: flex; 
-        flex-direction: row; 
-        justify-content: space-around; 
-    } 
+    .icon{ 
+        text-align: center; 
+        margin-top: 200px; 
+    }
     .anna{ 
         text-align: center; 
-        font-size: 6vh; 
+        font-size: 15vh; 
         font-weight: 400; 
         line-height: 1.1; 
         margin-top: 6vh; 
@@ -408,15 +515,10 @@
         font-family: gabriola; 
     } 
     .insta{ 
-        font-size: 3vh; 
+        font-size: 5vh; 
         font-weight: 400; 
         text-decoration: none; 
         color: aliceblue; 
         letter-spacing: .2em; 
     } 
-    .icon{ 
-        text-align: center; 
-        margin-top: 10vh; 
-    }
-    
 }
