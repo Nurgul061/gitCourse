@@ -154,6 +154,13 @@
     color: aliceblue;
     letter-spacing: .2em;
 }
+.bgColor{
+    transition: all 1s;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    height: auto;
+    color: #131313;
+}
 .icon{
     text-align: center;
     margin-top: 10vh;
@@ -182,4 +189,8 @@
     color:chocolate;
     cursor: pointer;
 }
-
+@media screen and (max-width: 768px){
+.suret{
+    width: 242px;
+}
+}
