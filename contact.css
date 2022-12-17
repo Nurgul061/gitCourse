@@ -118,10 +118,11 @@
     padding-left:85vw;
     padding-top: 50px;
 }
-.main{
+.office{
     margin-top: 100px;
     font-size: 50px;
     margin-left: 40px;
+    width: 100%;
 }
 .city{
     margin-top: 30px;
@@ -148,6 +149,44 @@
     margin-top: 50px;
     margin-left: 40px;
 }
+.contact-form{
+    margin-top: 100px;
+    width: 300px;
+}
+input{
+    margin-top: 50px;
+    margin-left: 200px;
+    width: 500px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 20px 1px;
+    text-align: center;
+}
+.btn{
+    width: 200px;
+    background-color: rgb(19, 19, 19);
+    margin-left: 400px;
+    margin-top: 20px;
+    color: #fff;
+    width: 300px;
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: #373636;
+}
+textarea{
+    margin-top: 100px;
+    margin-left: 200px;
+    border: 1px solid;
+    border-radius: 20px 1px;
+    text-align: center;
+    width: 500px;
+    height: 200px;
+}
+#rino{
+    display: flex;
+}
+
 .foot{ 
     background-color: black; 
     width:100%; 
@@ -186,7 +225,4 @@
 .icon{ 
     text-align: center; 
     margin-top: 10vh; 
-}
-.rino{
-    float: left;
 }

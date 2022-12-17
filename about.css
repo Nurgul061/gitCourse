@@ -118,11 +118,9 @@
     padding-left:85vw;
     padding-top: 50px;
 }
-#about1{
-    margin-top: 250px;
-}
 p{
    margin-left: 750px;
+   margin-top: 250px;
 }
 .our{
    width: 300px;
@@ -141,7 +139,7 @@ p{
     margin-left: 30px;
 }
 .border2{
-    width: 40vw;
+    width: 400px;
 }
 
 #spoilerbtn{
@@ -151,20 +149,20 @@ p{
 
 .img2{
     display:flex;
-    width: 25vw;
+    width: 300px;
     height: 75vh;
     margin-left: 60vw;
     margin-top: -68vh;
 }
 .img3{
     display:flex;
-    width:15vw;
+    width:200px;
     height: 50vh;
     margin-top: -230px;
     margin-left: 80vw;
 }
 .img3-animation {
-    animation: wipe-enter 5s 1
+    animation: wipe-enter 3s 1
   }
   @keyframes wipe-enter {
     0% {
@@ -205,8 +203,8 @@ p{
 }
 .lab{
     font-size: 40px;
-    margin-top: 10vh;
-    margin-left: 10vh;
+    margin-top: 40px;
+    margin-left: 50px;
 }
 .suret{
     width: 300px;
@@ -289,7 +287,7 @@ h4{
   
 .foot{ 
     background-color: black; 
-    width:100%; 
+    width:1250px; 
     height: 45vh; 
     color: aliceblue; 
     margin-top: 25vh; 
@@ -338,43 +336,173 @@ h4{
     }
     p{
         margin-top: 300px;
-        margin-left: 350px;
+        margin-left: 420px;
         font-size: 30px;
      }
      .our{
         width: 500px;
         margin-top: 50px;
         font-size: 50px;
-        margin-left: 180px;
+        margin-left: 200px;
      }
      .making{
         margin-top: 100px;
         width: 400px;
-        margin-left: 200px;
+        margin-left: 250px;
         font-size: 30px;
      }
      #about-img1{
          width: 110%;
          height: 500px;
-         margin-left: 60px;
+         margin-left: 40px;
      }
      .change{
+        display: flex;
         background-color: #fff;
         border: none;
         font-size: 20px;
         border-radius: 10px;
-        margin-left: 30px;
+        margin-left: 220px;
+        font-size: 40px;
     }
-    #ch2,#ch3{
+    #ch2{
         color: rgb(205, 198, 198);
-        margin-left: 20px;
+        margin-left: 370px;
+        font-size: 40px;
     }
-    
+    #ch3{
+        color: rgb(205, 198, 198);
+        margin-left: 520px;
+        font-size: 40px;
+    }
     .img4{
+        margin-top: 300px;
         width: 200px;
         height: 300px;
     }
+    .img2{
+        display:flex;
+        width: 800px;
+        height: 500px;
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+    .img3{
+        display:flex;
+        width:400px;
+        height: 400px;
+        margin-top: -100px;
+        margin-left: 465px;
+    }
+    .img3-animation {
+        animation: wipe-enter 5s 1
+      }
+      @keyframes wipe-enter {
+        0% {
+          transform: scale(0, .025)
+        }
+        50% {
+          transform: scale(1, .025)
+        }
+      }
+    #label1{
+        width: 500px;
+        padding-top: 50px;
+        font-size: 80px;
+        padding-left: 20px;
+    }
+    #label{
+       font-size: 30px;
+       height: 200px;
+    }
+    .lab{
+        font-size: 40px;
+        margin-top: 50px;
+        text-align: center;
+        padding-left: 80px;
+    }
+    .border2{
+        width:800px;
+    }
+    .feed1{
+        margin-top: 300px;
+        margin-left:350px;
+        font-size: 40px;
+    }
+    .feedback{
+        margin-left:160px;
+        margin-top: 40px;
+    }
+    .fed{
+        font-size: 30px;
+    }
+    .feed{
+        font-size: 30px;
+        display: none;
+        }
+    #button{
+        margin-left: 800px;
+        margin-top: 30px;
+    }
+    input{
+        background-color:#fff;
+        border: none;
+        color: #131313;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 40px;
+    }
+    #imglast{
+        display: block;
+        width: 750px;
+        height: 300px;
+        margin-left: 60px;
+        margin-top: 100px;
+    }
+    .text2{
+        margin-left: 120px;
+        margin-top: 200px;
+        font-size: 80px;
+    }
+    .partners{
+        padding: 40px ;
+        display: inline-block;
+        padding-left: 150px;
+    }
+    #qr{
+     width: 500px;
+     height: 200px;
+     padding: 30px;
+    }
+    .partner{
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+    .container {
+        padding: 50px 55px;
+        display: table;
+    }
+      .title1 {
+        color: grey;
+    }
+    h4{
+        margin-top: 50px;
+    }
+    .foot{ 
+        background-color: black; 
+        width:120%; 
+        height: 500px; 
+        color: aliceblue; 
+        margin-top: 25vh; 
+         
+    } 
+    .icon{ 
+        text-align: center; 
+        margin-top: 200px; 
+    }
+      
 }
+
 @media screen  and (max-width: 567px){
     .knopka{
         display: none;
@@ -385,39 +513,170 @@ h4{
     }
     p{
         margin-top: 300px;
-        margin-left: 350px;
+        margin-left: 420px;
         font-size: 30px;
      }
      .our{
         width: 500px;
         margin-top: 50px;
         font-size: 50px;
-        margin-left: 150px;
+        margin-left: 200px;
      }
      .making{
         margin-top: 100px;
         width: 400px;
-        margin-left: 190px;
+        margin-left: 250px;
         font-size: 30px;
      }
      #about-img1{
-         width: 130%;
-         height: 400px;
-         margin-left: 70px;
+         width: 800px;
+         height: 500px;
+         margin-left: 40px;
      }
      .change{
-        margin-left: 30px;
+        display: flex;
         background-color: #fff;
         border: none;
-        font-size: 10px;
+        font-size: 20px;
         border-radius: 10px;
+        margin-left: 220px;
+        font-size: 40px;
     }
-    #ch2,#ch3{
+    #ch2{
         color: rgb(205, 198, 198);
-        margin-left: 20px;
+        margin-left: 370px;
+        font-size: 40px;
+    }
+    #ch3{
+        color: rgb(205, 198, 198);
+        margin-left: 520px;
+        font-size: 40px;
     }
     .img4{
-        width: 500px;
+        margin-top: 300px;
+        width: 200px;
         height: 300px;
     }
+    .img2{
+        display:flex;
+        width: 800px;
+        height: 500px;
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+    .img3{
+        display:flex;
+        width:400px;
+        height: 400px;
+        margin-top: -100px;
+        margin-left: 465px;
+    }
+    .img3-animation {
+        animation: wipe-enter 5s 1
+      }
+      @keyframes wipe-enter {
+        0% {
+          transform: scale(0, .025)
+        }
+        50% {
+          transform: scale(1, .025)
+        }
+      }
+    #label1{
+        width: 500px;
+        padding-top: 50px;
+        font-size: 80px;
+        padding-left: 20px;
+    }
+    #label{
+       font-size: 30px;
+       height: 200px;
+    }
+    .lab{
+        font-size: 40px;
+        margin-top: 50px;
+        text-align: center;
+        padding-left: 80px;
+    }
+    .border2{
+        width:800px;
+    }
+    .feed1{
+        margin-top: 300px;
+        margin-left:350px;
+        font-size: 40px;
+    }
+    .feedback{
+        margin-left:160px;
+        margin-top: 40px;
+    }
+    .fed{
+        font-size: 30px;
+    }
+    .feed{
+        font-size: 30px;
+        display: none;
+        }
+    #button{
+        margin-left: 800px;
+        margin-top: 30px;
+    }
+    input{
+        background-color:#fff;
+        border: none;
+        color: #131313;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 40px;
+    }
+    #imglast{
+        display: block;
+        width: 750px;
+        height: 300px;
+        margin-left: 60px;
+        margin-top: 100px;
+    }
+    .text2{
+        margin-left: 270px;
+        margin-top: 200px;
+        font-size: 80px;
+    }
+    .partners{
+        padding: 40px ;
+        display: inline-block;
+        padding-left: 150px;
+        padding-top: 200px;
+    }
+    #qr{
+     width: 500px;
+     height: 200px;
+     padding: 30px;
+    }
+    .partner{
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+    .container {
+        padding: 50px 55px;
+        display: table;
+    }
+      .title1 {
+        color: grey;
+    }
+    h4{
+        margin-top: 50px;
+    }
+    .foot{ 
+        background-color: black; 
+        width:1000px; 
+        height: 500px; 
+        color: aliceblue; 
+        margin-top: 25vh; 
+         
+    } 
+    .icon{ 
+        text-align: center; 
+        margin-top: 200px; 
+    }
+      
 }

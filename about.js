@@ -14,8 +14,8 @@ for (let anchor of anchors) {
 }
 
 function change(ex){
-      document.getElementById("label1").innerHTML="Detailed <br/><em>Craftsmanship</em>";
-      document.getElementById("label").innerHTML="<em>Because of our expertise and passionate participation throughout the entire process we are able to find the perfect balance between the contemporary aesthetic and the belonged quality.</em>";
+      document.getElementById("label1").innerHTML="<em>Detailed Craftsmanship</em>";
+      document.getElementById("label").innerHTML="Because of our expertise and passionate participation throughout the entire process we are able to find the perfect balance between the contemporary aesthetic and the belonged quality.";
       document.getElementById("ch2").style.color="lightgrey";
       document.getElementById("ch3").style.color="lightgrey";
       document.getElementById("ch1").style.color="black";
