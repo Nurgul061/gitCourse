@@ -1,12 +1,13 @@
 function changeBg(){
-    var navbar = document.getElementById('navbar');
-    var scrollValue = window.scrollY;
-    if(scrollValue< 160){
-        navbar.classList.remove('bgColor');
-    }else {
-        navbar.classList.add('bgColor');
-    }
+  var navbar = document.getElementById('navbar');
+  var scrollvalue = window.scrollY;
+  if(scrollvalue<335){
+    navbar.classList.remove('bgColor');
+  }else{
+    navbar.classList.add('bgColor');
+  }
 }
+window.addEventListener('scroll',changeBg);
 
 (function () {
     var square = document.querySelector('.suret33');
