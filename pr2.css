@@ -42,7 +42,6 @@
 .navbar { 
     z-index: 1000;
     position: fixed;
-    top:0;
     width: 100%;
     height: 40px;
     font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -98,20 +97,25 @@
 .colorText{
     color: black;
 }
-.vid{
+.video_bg{
+    height: 100vh;
     width: 100%;
-    height: 100%;
+    overflow: hidden;
     position: relative;
-    overflow:hidden;
+
+}
+.vid{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
     text-align: center;
     vertical-align: middle;
     filter: brightness(70%);
+    object-fit: cover;
 }
 .bezh{
     background-color: #ebe4db;
     width: 100%;
-    height: 100%;
-    margin-top: 60vh;
 }
 .cool{
     font-size: 7vw;
@@ -120,59 +124,56 @@
     text-align: center;
 }
 .suret{
-    width: 67.797vw;
-    display: block;
-    margin: auto;
+    width: 65%;
+    margin-left: 17.5vw;
 }
 .faux{
-    font-size: 90px;
+    font-size: 7.5vw;
     font-weight: 400;
     font-family: Saol Display;
-    margin-bottom: 0.5rem;
     line-height: 1.1;
     color: white;
     text-align: center;
-    margin-top: -50px;
 }
 .page3{
     width: 100%;
     height: 100%;
     background-color: #f7f8f6;
-    margin-top: 100px;
+    margin-top: 6.798vw;
 }
 .suret2{
-    width: 67vw;
-    margin-top: 50px;
+    width: 65%;
+    margin: auto
 }
 .aw{
     font-size: 10px;
     font-weight: bold;
-    margin-left: 300px;
-    margin-top: 100px;
+    margin-left: 20.394vw;
+    margin-top: 6.798vw;
 }
 .text{
     font-size: 3.4vw;
-    margin-left: 300px;
-    margin-top: 20px;
+    margin-left: 20.394vw;
+    margin-top: 1.360vw;
 }
 .text2{
     width: 17vw;
     line-height: 2.1vw;
     letter-spacing: .05em;
-    font-size: 1.961vh;
-    margin-left: 300px;
+    font-size: 1.5vw;
+    margin-left: 20.394vw;
     
 }
 .page33{
     display: inline-block;
 }
 .suret3{
-    width: 21vw;
+    width: 25%;
     display: inline-block;
    
 }
 .suret33{
-    width: 150px;
+    width: 18%;
     position: relative;
     z-index: 1000;
 }
@@ -189,25 +190,24 @@
 }
 
 .jazy{
-    font-size: 10px;
+    font-size: 13px;
     letter-spacing: .2em;
     text-transform: uppercase;
     font-weight: 700;
     position: relative;
+    margin-top: 45vh;
     color: white;
-    margin-top: -65vh;
     text-align: center;
 }
 .jazy2{
+    margin-left: 20vw;
     font-weight: 400;
     position: relative;
-    margin-top: 2vh;
     font-size: 4.5vw;
     color: white;
     letter-spacing: .1em;
     text-align: center;
     display: inline;
-    margin-left: 17vw;
 }
 .jazy3{
     margin-top: 2vh;
@@ -218,18 +218,18 @@
 }
 .disc{
     border: none;
-    font-size: 10px;
+    font-size: 1vw;
     text-align: center;
-    width: 100px;
-    height: 40px;
+    width: 10vw;
+    height: 2.719vw;
     color: white;
     background-color: #8a5e7c;
-    margin-left: 340px;
-    margin-top: 40px;
+    margin-left: 23.114vw;
+    margin-top: 2.719vw;
 }
 .suret4{
-    width: 800px;
-    margin-left: 150px;
+    width: 80%;
+    margin-left: 9vw;
     padding: 50px 50px;
 }
 .suret5{
@@ -237,18 +237,19 @@
 }
 .suret6{
     width: 70%;
-    margin-left: 200px;
-    margin-top: -70px;
+    margin-left: 13.596vw;
+    margin-top: -4.759vw;
     
 }
 .suret7{
     display: inline;
-    width: 600px;
+    width: 55%;
+    margin-top: 5rem;
 }
 .suret8{
     display: inline;
-    height: 500px;
-    margin-left: 150px;
+    width: 30%;
+    margin-left: 2.719vw;
 }
 .bezh2{
     background-color: #ebe4db;
@@ -264,8 +265,8 @@
     padding-top: 130px;
 }
 .citation{
-    width: 800px;
-    font-size: 70px;
+    width: 54.385vw;
+    font-size: 4.759vw;
     margin: auto;
     color: white;
     font-family: Monotype Corsiva;
@@ -289,20 +290,20 @@
 }
 .anna{
     text-align: center;
-    font-size: 6vh;
+    font-size: 5vw;
     font-weight: 400;
     line-height: 1.1;
-    margin-top: 6vh;
+    margin-top: 1.835vw;
     font-family: gabriola;
 }
 .fol{
-    font-size: 2.8vh;
+    font-size: 3vw;
     font-weight: 300;
     line-height: 1.1;
     font-family: gabriola;
 }
 .insta{
-    font-size: 3vh;
+    font-size: 3vw;
     font-weight: 400;
     text-decoration: none;
     color: aliceblue;
@@ -310,22 +311,110 @@
 }
 .icon{
     text-align: center;
-    margin-top: 10vh;
+    margin-top: 3.059vw;
 }
 .need{
-    font-size: 50px;
+    font-size: 3.399vw;
     font-family: Monotype Corsiva;
 }
 .alred{
-    font-size: 30px;
+    font-size: 3vw;
     font-family: Monotype Corsiva;
 }
 .find{
-    font-size: 30px;
+    font-size: 3vw;
     font-family: Monotype Corsiva;
 }
 .aa{
     text-decoration: underline black;
     color:chocolate;
     cursor: pointer;
+}
+@media screen and (max-width:768px){
+    .header{
+        display: none;
+    }
+    .vid{
+        height: 100%;
+        width: 100%;
+    }
+    .suret4{
+        margin-top: 2.039vw;
+        padding: 0;
+    }
+    .suret7{
+        width: 100%;
+    }
+    .suret3{
+        width: 70%;
+        margin-top: 10vh
+    }
+    .suret33{
+        width: 40%;
+    }
+    .text{
+        font-size: 40px;
+        margin-bottom: 10px;
+        margin-left: 8px;
+    }
+    .aw{
+        margin-left: 8px;
+    }
+    .text2{
+        font-size: 14px;
+        width: 230px;
+        line-height: 28px;
+        margin-left:8px;
+    }
+    .disc{
+        width: 30%;
+        height: 5vh;
+        font-size: 16px;
+        margin-left: 35px;
+    }
+    .suret6{
+        height: 85vh;
+        width: auto;
+    }
+    .citation{
+        font-size: 45px;
+    }
+    .suret8{
+        width: 80%;
+        margin-left: 60px;
+    }
+    .need{
+        font-size: 50px;
+    }
+    .aut{
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .alred,.find{
+        font-size: 20px;
+        margin-top: 20px;
+        font-family: serif;
+    }
+    .foot{
+        margin-top: 50px;
+    }
+    #title{
+        font-size: 20px;
+    }
+    
+    
+    
+}
+@media screen and (max-width:534px){
+    .suret33{
+        margin-bottom: -650px;
+        margin-left: 55vw;
+    }
+    .suret6{
+        margin-left: 0;
+    }
+    .suret{
+        width: 80%;
+        margin: 45px;
+    }
 }
