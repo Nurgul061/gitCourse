@@ -88,6 +88,36 @@
     margin-left: 35vw;
     margin-top: -5vh;
 }
+.dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    border: 1px;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    margin-left: 500px;
+    position: relative;
+    display: none;
+    padding: 100px;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .show {
+    display:block;
+  }
 .about{
     padding: 120px 100px;
     font-family:  Georgia, 'Times New Roman', Times, serif;
@@ -287,10 +317,10 @@ h4{
   
 .foot{ 
     background-color: black; 
-    width:1250px; 
+    width:100%; 
     height: 45vh; 
     color: aliceblue; 
-    margin-top: 25vh; 
+    margin-top: 20vh; 
      
 } 
 .box2{ 
@@ -326,7 +356,53 @@ h4{
 }
 
 
-@media screen  and (max-width: 768px){
+@media screen  and (min-width: 500px){
+    .navbar{
+        display: none;
+    }
+    .dropbtn {
+        width: 150px;
+        height: 60px;
+        padding: 10px;
+        margin-left: 400px;
+        font-size: 30px;
+        cursor: pointer;
+        background-color: #fff;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      }
+    
+      .dropdown {
+        margin-left: 200px;
+        position: relative;
+        display: inline-block;
+        padding: 100px;
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        border:dotted 4px;
+        background-color: #fff;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        margin-left: 450px;
+        font-size: 20px;
+      }
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      .show {
+        display:block;
+    }
+    .about{
+        margin-top: -60px;
+        padding: 0px 100px;
+        font-family:  Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
     .knopka{
         display: none;
         width: 40px;
@@ -490,11 +566,11 @@ h4{
     }
     .foot{ 
         background-color: black; 
-        width:120%; 
+        width:100%; 
         height: 500px; 
         color: aliceblue; 
         margin-top: 25vh; 
-         
+        display:none;
     } 
     .icon{ 
         text-align: center; 
@@ -522,8 +598,53 @@ h4{
         letter-spacing: .2em; 
     } 
 }
-
-@media screen  and (max-width: 567px){
+@media screen  and (max-width: 768px){
+    .navbar{
+        display: none;
+    }
+    .dropbtn {
+        width: 150px;
+        height: 60px;
+        padding: 10px;
+        margin-left: 400px;
+        font-size: 30px;
+        cursor: pointer;
+        background-color: #fff;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      }
+    
+      .dropdown {
+        margin-left: 200px;
+        position: relative;
+        display: inline-block;
+        padding: 100px;
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        border:dotted 4px;
+        background-color: #fff;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        margin-left: 450px;
+        font-size: 20px;
+      }
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      .show {
+        display:block;
+    }
+    .about{
+        margin-top: -60px;
+        padding: 0px 100px;
+        font-family:  Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
     .knopka{
         display: none;
         width: 40px;
@@ -549,7 +670,7 @@ h4{
         font-size: 30px;
      }
      #about-img1{
-         width: 800px;
+         width: 110%;
          height: 500px;
          margin-left: 40px;
      }
@@ -658,7 +779,7 @@ h4{
         margin-top: 100px;
     }
     .text2{
-        margin-left: 270px;
+        margin-left: 120px;
         margin-top: 200px;
         font-size: 80px;
     }
@@ -666,7 +787,6 @@ h4{
         padding: 40px ;
         display: inline-block;
         padding-left: 150px;
-        padding-top: 200px;
     }
     #qr{
      width: 500px;
@@ -688,11 +808,11 @@ h4{
     }
     .foot{ 
         background-color: black; 
-        width:120%; 
+        width:100%; 
         height: 500px; 
         color: aliceblue; 
         margin-top: 25vh; 
-         
+        display:none;
     } 
     .icon{ 
         text-align: center; 
@@ -719,5 +839,4 @@ h4{
         color: aliceblue; 
         letter-spacing: .2em; 
     } 
-      
 }
