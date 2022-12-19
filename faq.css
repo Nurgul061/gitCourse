@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+}
+.header{
+    border: 1px solid;
+    width: 100%;
+    height: 80px;
+    border: none;
+    position: fixed;
+    z-index: 1000;
+}
+
+.marquee-infinite {
+    max-width: 100%;
+    overflow: hidden;
+    height: 20px;
+}
+.marquee-infinite div {
+    display: flex;
+    background-color: black;
+    width: 200%;
+    animation: marquee-infinite 20s linear infinite;
+}
+
+.marquee-infinite p {
+    white-space: nowrap;
+    padding: 10px 0;
+    letter-spacing: 0.2em;
+    font-size: 8px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100%;
+    color: white;
+}
+@keyframes marquee-infinite {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+.navbar { 
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+  #navbar li { 
+    display: inline; 
+}
+  .navbar a {
+    color: black;
+    padding: 5px 10px;
+    text-decoration:none;
+    font-weight: bold;
+    display: inline-block;
+  }
+  #navbar a:after {
+  
+    content: '';  
+    height: 1px; 
+    display: block; 
+    border-bottom: 2px solid #131313; 
+    width: 0; 
+    -webkit-transition: width 0.5s; 
+    transition: width 0.5s; 
+} 
+ 
+#navbar a:hover { 
+    text-decoration: none; 
+} 
+ 
+#navbar a:hover:after { 
+    width: 100%; 
+}
+.shop{
+    margin-left: 830px;
+    margin-top: -33px;
+}
+#title{
+    font-size: 40px;
+    margin-left:0;
+    margin-top: 10px;
+}
+#sale{
+    margin-left: 300px;
+}
+.page1{
+    width: 100%;
+    height: 80vh;
+    background-color: #f7f8f6;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+
+.customer{
+    font-size: 0.8vw;
+    margin-top: -3vw;
+    font-weight: 600;
+    letter-spacing: .2em;
+    font-family: Arial Narrow, sans-serif;
+    position: relative;
+}
+.any{
+    font-size: 5vw;
+    margin-top: 5vw;
+    font-family: 'Courier New, monospace';
+    position: relative;
+    animation: text 2s 1;
+}
+.we{
+    font-size: 5vw;
+    animation: text 2s 1;
+}
+@keyframes text{
+    0%{
+        color: inherit;
+        margin-top: -45px;
+    }
+    30%{
+        letter-spacing: 5px;
+        margin-top: -45px;
+    }
+    85%{
+      
+        margin-top: -45px;
+    }
+}
+.faqs{
+    font-family: 'Roboto', sans-serif;
+    max-width: 80vh;
+    margin:auto;
+    margin-bottom: 50px;
+    
+}
+.questions{
+    margin-left: -20vh;
+}
+.faqs h2{
+    padding: 4px 32px;
+    font-size: 2vw;
+    color: black;
+    font-weight: bold;
+    justify-content: center;
+    margin: 10vh auto;
+    text-align: center;
+    align-items: center;
+}
+.faqs .faq-header{
+    display: flex;
+    color: grey;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.faqs .faq-header .open,
+.faqs .faq-header .close{
+    position: absolute;
+    left: 0;
+    padding: 0 1vw;
+    font-size: 2.5vw;
+    transform: translateY(-8px);
+    opacity: 0;
+    transition: all 500ms;
+}
+
+.faqs .faq-header .open.active,
+.faqs .faq-header .close.active{
+    opacity: 1;
+    transform: translateY(0);
+}
+.faqs .faq-header h3{
+    font-size: 2vw;
+    padding: 0 4vw;
+}
+
+.faqs .content{
+    padding: 0 32px;
+    line-height: 2;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 500ms;
+}
+.faqs .content.active{
+    max-height: 600px;
+}
+
+  h1 {
+    font-weight: 200;
+    margin: 4em auto;
+    justify-content: center;
+    text-align: center;
+  }
+  h1 { 
+    font-size: 3.5em; 
+}
+@media screen and (max-width:727px){
+    .faqs{
+        margin-right: 2vw;
+    }
+}
+@media screen and (max-width:620px){
+    .faqs{
+        margin-left: 50vw;
+    }
+    .faqs h2{
+        margin-left: -30vw;
+    }
+}
+.foot{
+    background-color: black;
+    width: 100%;
+    height: 45vh;
+    color: aliceblue;
+    margin-top: 40vh;
+    
+}
+.box2{
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.anna{
+    text-align: center;
+    font-size: 5vw;
+    font-weight: 400;
+    line-height: 1.1;
+    margin-top: 1.835vw;
+    font-family: gabriola;
+}
+.fol{
+    font-size: 3vw;
+    font-weight: 300;
+    line-height: 1.1;
+    font-family: gabriola;
+}
+.insta{
+    font-size: 3vw;
+    font-weight: 400;
+    text-decoration: none;
+    color: aliceblue;
+    letter-spacing: .2em;
+}
+.icon{
+    text-align: center;
+}
+.bgColor{
+    transition: all 1s;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    height: auto;
+    color: #131313;
+}
+.faq a{
+    text-decoration: none;
+    color: white;
+    font-size: 3vw;
+}
