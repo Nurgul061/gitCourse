@@ -357,6 +357,9 @@ h4{
 
 
 @media screen  and (max-width: 768px){
+    .navbar{
+    display: none;
+    }
     .dropbtn {
         width: 150px;
         height: 60px;
@@ -398,7 +401,28 @@ h4{
         margin-top: -60px;
         padding: 0px 100px;
         font-family:  Georgia, 'Times New Roman', Times, serif;
-        font-size: 20px;
+        font-size: 40px;
+    }
+    .citation{
+        padding-left: 180px;
+        font-size: 15vh;
+        font-weight: 100;
+        font-family: Monotype Corsiva; 
+        display: flex;
+        letter-spacing: 2vw;
+        position: relative;
+        animation: text 4s 1;
+        padding-top: 100px;
+         }
+        @keyframes text{
+            0%{
+                color: #131313;
+                margin-bottom: -2vw;
+            }
+            30%{
+                letter-spacing: 30px;
+                margin-bottom: -20px;
+            }       
     }
     .knopka{
         display: none;
@@ -409,25 +433,25 @@ h4{
     }
     p{
         margin-top: 300px;
-        margin-left: 420px;
-        font-size: 30px;
+        margin-left: 550px;
+        font-size: 60px;
      }
      .our{
         width: 500px;
         margin-top: 50px;
         font-size: 50px;
-        margin-left: 200px;
+        margin-left: 400px;
      }
      .making{
         margin-top: 100px;
         width: 400px;
-        margin-left: 250px;
+        margin-left: 450px;
         font-size: 30px;
      }
      #about-img1{
-         width: 110%;
-         height: 500px;
-         margin-left: 40px;
+         width: 160%;
+         height: 600px;
+         margin-left: 100px;
      }
      .change{
         display: flex;
@@ -435,17 +459,17 @@ h4{
         border: none;
         font-size: 20px;
         border-radius: 10px;
-        margin-left: 220px;
+        margin-left: 400px;
         font-size: 40px;
     }
     #ch2{
         color: rgb(205, 198, 198);
-        margin-left: 370px;
+        margin-left: 500px;
         font-size: 40px;
     }
     #ch3{
         color: rgb(205, 198, 198);
-        margin-left: 520px;
+        margin-left: 600px;
         font-size: 40px;
     }
     .img4{
@@ -457,7 +481,7 @@ h4{
         display:flex;
         width: 800px;
         height: 500px;
-        margin-left: 40px;
+        margin-left: 200px;
         margin-top: 40px;
     }
     .img3{
@@ -465,7 +489,7 @@ h4{
         width:400px;
         height: 400px;
         margin-top: -100px;
-        margin-left: 465px;
+        margin-left: 700px;
     }
     .img3-animation {
         animation: wipe-enter 5s 1
@@ -479,38 +503,38 @@ h4{
         }
       }
     #label1{
-        width: 500px;
+        width: 600px;
         padding-top: 50px;
         font-size: 80px;
         padding-left: 20px;
     }
     #label{
-       font-size: 30px;
+       font-size: 40px;
        height: 200px;
     }
     .lab{
-        font-size: 40px;
+        font-size: 60px;
         margin-top: 50px;
         text-align: center;
-        padding-left: 80px;
+        padding-left: 300px;
     }
     .border2{
         width:800px;
     }
     .feed1{
         margin-top: 300px;
-        margin-left:350px;
-        font-size: 40px;
+        margin-left:400px;
+        font-size: 80px;
     }
     .feedback{
-        margin-left:160px;
+        margin-left:400px;
         margin-top: 40px;
     }
     .fed{
-        font-size: 30px;
+        font-size: 40px;
     }
     .feed{
-        font-size: 30px;
+        font-size: 40px;
         display: none;
         }
     #button{
@@ -524,24 +548,24 @@ h4{
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 40px;
+        font-size: 60px;
     }
     #imglast{
         display: block;
-        width: 750px;
-        height: 300px;
-        margin-left: 60px;
+        width: 1000px;
+        height: 600px;
+        margin-left: 150px;
         margin-top: 100px;
     }
     .text2{
-        margin-left: 120px;
+        margin-left: 480px;
         margin-top: 200px;
         font-size: 80px;
     }
     .partners{
         padding: 40px ;
         display: inline-block;
-        padding-left: 150px;
+        padding-left: 350px;
     }
     #qr{
      width: 500px;
@@ -598,242 +622,264 @@ h4{
 @media screen  and (max-width: 500px){
     .navbar{
         display: none;
-    }
-    .dropbtn {
-        width: 150px;
-        height: 60px;
-        padding: 10px;
-        margin-left: 400px;
-        font-size: 30px;
-        cursor: pointer;
-        background-color: #fff;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      }
-    
-      .dropdown {
-        margin-left: 200px;
-        position: relative;
-        display: inline-block;
-        padding: 100px;
-      }
-      .dropdown-content {
-        display: none;
-        position: absolute;
-        border:dotted 4px;
-        background-color: #fff;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-        margin-left: 450px;
-        font-size: 20px;
-      }
-      .dropdown-content a {
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-      }
-      .show {
-        display:block;
-    }
-    .about{
-        margin-top: -60px;
-        padding: 0px 100px;
-        font-family:  Georgia, 'Times New Roman', Times, serif;
-        font-size: 20px;
-    }
-    .knopka{
-        display: none;
-        width: 40px;
-        height: 40px;
-        padding-left:85vw;
-        padding-top: 50px;
-    }
-    p{
-        margin-top: 300px;
-        margin-left: 420px;
-        font-size: 30px;
-     }
-     .our{
-        width: 500px;
-        margin-top: 50px;
-        font-size: 50px;
-        margin-left: 200px;
-     }
-     .making{
-        margin-top: 100px;
-        width: 400px;
-        margin-left: 250px;
-        font-size: 30px;
-     }
-     #about-img1{
-         width: 180%;
-         height: 500px;
-         margin-left: 40px;
-     }
-     .change{
-        display: flex;
-        background-color: #fff;
-        border: none;
-        font-size: 20px;
-        border-radius: 10px;
-        margin-left: 220px;
-        font-size: 40px;
-    }
-    #ch2{
-        color: rgb(205, 198, 198);
-        margin-left: 370px;
-        font-size: 40px;
-    }
-    #ch3{
-        color: rgb(205, 198, 198);
-        margin-left: 520px;
-        font-size: 40px;
-    }
-    .img4{
-        margin-top: 300px;
-        width: 200px;
-        height: 300px;
-    }
-    .img2{
-        display:flex;
-        width: 800px;
-        height: 500px;
-        margin-left: 40px;
-        margin-top: 40px;
-    }
-    .img3{
-        display:flex;
-        width:400px;
-        height: 400px;
-        margin-top: -100px;
-        margin-left: 465px;
-    }
-    .img3-animation {
-        animation: wipe-enter 5s 1
-      }
-      @keyframes wipe-enter {
-        0% {
-          transform: scale(0, .025)
         }
-        50% {
-          transform: scale(1, .025)
+        .dropbtn {
+            width: 150px;
+            height: 60px;
+            padding: 10px;
+            margin-left: 400px;
+            font-size: 30px;
+            cursor: pointer;
+            background-color: #fff;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          }
+        
+          .dropdown {
+            margin-left: 500px;
+            position: relative;
+            display: inline-block;
+            padding: 100px;
+          }
+          .dropdown-content {
+            display: none;
+            position: absolute;
+            border:dotted 4px;
+            background-color: #fff;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            margin-left: 450px;
+            font-size: 25px;
+          }
+          .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+          }
+          .show {
+            display:block;
         }
-      }
-    #label1{
-        width: 500px;
-        padding-top: 50px;
-        font-size: 80px;
-        padding-left: 20px;
-    }
-    #label{
-       font-size: 30px;
-       height: 200px;
-    }
-    .lab{
-        font-size: 40px;
-        margin-top: 50px;
-        text-align: center;
-        padding-left: 80px;
-    }
-    .border2{
-        width:800px;
-    }
-    .feed1{
-        margin-top: 300px;
-        margin-left:350px;
-        font-size: 40px;
-    }
-    .feedback{
-        margin-left:160px;
-        margin-top: 40px;
-    }
-    .fed{
-        font-size: 30px;
-    }
-    .feed{
-        font-size: 30px;
-        display: none;
+        .about{
+            margin-top: -60px;
+            padding: 0px 100px;
+            font-family:  Georgia, 'Times New Roman', Times, serif;
+            font-size: 40px;
         }
-    #button{
-        margin-left: 800px;
-        margin-top: 30px;
+        .citation{
+            padding-left: 150px;
+            font-size: 15vh;
+            font-weight: 100;
+            font-family: Monotype Corsiva; 
+            display: flex;
+            letter-spacing: 2vw;
+            position: relative;
+            animation: text 4s 1;
+            padding-top: 100px;
+             }
+            @keyframes text{
+                0%{
+                    color: #131313;
+                    margin-bottom: -2vw;
+                }
+                30%{
+                    letter-spacing: 30px;
+                    margin-bottom: -20px;
+                }       
+        }
+        .knopka{
+            display: none;
+            width: 40px;
+            height: 40px;
+            padding-left:85vw;
+            padding-top: 50px;
+        }
+        p{
+            margin-top: 300px;
+            margin-left: 550px;
+            font-size: 60px;
+         }
+         .our{
+            width: 500px;
+            margin-top: 50px;
+            font-size: 50px;
+            margin-left: 400px;
+         }
+         .making{
+            margin-top: 100px;
+            width: 400px;
+            margin-left: 450px;
+            font-size: 30px;
+         }
+         #about-img1{
+             width: 160%;
+             height: 600px;
+             margin-left: 100px;
+         }
+         .change{
+            display: flex;
+            background-color: #fff;
+            border: none;
+            font-size: 20px;
+            border-radius: 10px;
+            margin-left: 400px;
+            font-size: 40px;
+        }
+        #ch2{
+            color: rgb(205, 198, 198);
+            margin-left: 500px;
+            font-size: 40px;
+        }
+        #ch3{
+            color: rgb(205, 198, 198);
+            margin-left: 600px;
+            font-size: 40px;
+        }
+        .img4{
+            margin-top: 300px;
+            width: 200px;
+            height: 300px;
+        }
+        .img2{
+            display:flex;
+            width: 800px;
+            height: 500px;
+            margin-left: 200px;
+            margin-top: 40px;
+        }
+        .img3{
+            display:flex;
+            width:400px;
+            height: 400px;
+            margin-top: -100px;
+            margin-left: 700px;
+        }
+        .img3-animation {
+            animation: wipe-enter 5s 1
+          }
+          @keyframes wipe-enter {
+            0% {
+              transform: scale(0, .025)
+            }
+            50% {
+              transform: scale(1, .025)
+            }
+          }
+        #label1{
+            width: 600px;
+            padding-top: 50px;
+            font-size: 80px;
+            padding-left: 20px;
+        }
+        #label{
+           font-size: 40px;
+           height: 200px;
+        }
+        .lab{
+            font-size: 60px;
+            margin-top: 50px;
+            text-align: center;
+            padding-left: 300px;
+        }
+        .border2{
+            width:800px;
+        }
+        .feed1{
+            margin-top: 300px;
+            margin-left:400px;
+            font-size: 80px;
+        }
+        .feedback{
+            margin-left:400px;
+            margin-top: 40px;
+        }
+        .fed{
+            font-size: 40px;
+        }
+        .feed{
+            font-size: 40px;
+            display: none;
+            }
+        #button{
+            margin-left: 800px;
+            margin-top: 30px;
+        }
+        input{
+            background-color:#fff;
+            border: none;
+            color: #131313;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 60px;
+        }
+        #imglast{
+            display: block;
+            width: 1000px;
+            height: 600px;
+            margin-left: 150px;
+            margin-top: 100px;
+        }
+        .text2{
+            margin-left: 480px;
+            margin-top: 200px;
+            font-size: 80px;
+        }
+        .partners{
+            padding: 40px ;
+            display: inline-block;
+            padding-left: 350px;
+        }
+        #qr{
+         width: 500px;
+         height: 200px;
+         padding: 30px;
+        }
+        .partner{
+           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+        .container {
+            padding: 50px 55px;
+            display: table;
+        }
+          .title1 {
+            color: grey;
+        }
+        h4{
+            margin-top: 50px;
+        }
+        .foot{ 
+            background-color: black; 
+            width:100%; 
+            height: 500px; 
+            color: aliceblue; 
+            margin-top: 25vh; 
+            display:none;
+        } 
+        .icon{ 
+            text-align: center; 
+            margin-top: 200px; 
+        }
+        .anna{ 
+            text-align: center; 
+            font-size: 15vh; 
+            font-weight: 400; 
+            line-height: 1.1; 
+            margin-top: 6vh; 
+            font-family: gabriola; 
+        } 
+        .fol{ 
+            font-size: 2.8vh; 
+            font-weight: 300; 
+            line-height: 1.1; 
+            font-family: gabriola; 
+        } 
+        .insta{ 
+            font-size: 5vh; 
+            font-weight: 400; 
+            text-decoration: none; 
+            color: aliceblue; 
+            letter-spacing: .2em; 
+        } 
     }
-    input{
-        background-color:#fff;
-        border: none;
-        color: #131313;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 40px;
-    }
-    #imglast{
-        display: block;
-        width: 750px;
-        height: 300px;
-        margin-left: 60px;
-        margin-top: 100px;
-    }
-    .text2{
-        margin-left: 120px;
-        margin-top: 200px;
-        font-size: 80px;
-    }
-    .partners{
-        padding: 40px ;
-        display: inline-block;
-        padding-left: 150px;
-    }
-    #qr{
-     width: 500px;
-     height: 200px;
-     padding: 30px;
-    }
-    .partner{
-       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    }
-    .container {
-        padding: 50px 55px;
-        display: table;
-    }
-      .title1 {
-        color: grey;
-    }
-    h4{
-        margin-top: 50px;
-    }
-    .foot{ 
-        background-color: black; 
-        width:100%; 
-        height: 500px; 
-        color: aliceblue; 
-        margin-top: 25vh; 
-        display:none;
-    } 
-    .icon{ 
-        text-align: center; 
-        margin-top: 200px; 
-    }
-    .anna{ 
-        text-align: center; 
-        font-size: 15vh; 
-        font-weight: 400; 
-        line-height: 1.1; 
-        margin-top: 6vh; 
-        font-family: gabriola; 
-    } 
-    .fol{ 
-        font-size: 2.8vh; 
-        font-weight: 300; 
-        line-height: 1.1; 
-        font-family: gabriola; 
-    } 
-    .insta{ 
-        font-size: 5vh; 
-        font-weight: 400; 
-        text-decoration: none; 
-        color: aliceblue; 
-        letter-spacing: .2em; 
-    } 
-}
+        
