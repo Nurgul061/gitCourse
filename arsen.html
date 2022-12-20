@@ -1,3 +1,4 @@
+ 
  <!DOCTYPE html>
  <html lang="en">
  <head>
@@ -7,39 +8,62 @@
     <link rel="stylesheet" href="arsen.css">
     <title>Account</title>
  </head>
-
  <body>
-   <div class="dropdown">
-      <button onclick="myFunction()" class="dropbtn">Menu</button>
-      <div id="myDropdown" class="dropdown-content">
-        <a href="shop.html">Shop</a>
-        <a href="about.html" >About</a>
-        <a href="pr2.html">Lookbook</a>
-        <a href="#" >Sale</a>
-        <a href="contact.html">Contact</a>
-        <a href="#" >Account</a>
-        <a href="#" >FAQ</a>
+   <div class="header">
+      <div class="marquee-infinite">
+          <div>
+              <h6>Difference between style and fashion is quality.</h6>
+              <h6>Difference between style and fashion is quality.</h6>
+              <h6>Difference between style and fashion is quality.</h6>
+              <h6>Difference between style and fashion is quality.</h6>
           </div>
       </div>
-    </div>
-
-
-    
+          <ul id="navbar" class="navbar">
+              <li><a href="#" id="title">AN&NA</a></li>
+              <div class="sale">
+              <li><a href="shop.html">Shop</a></li>
+              <li><a href="about.html" >About</a></li>
+              <li><a href="pr2.html">Lookbook</a></li>
+              <li><a href="#" >Sale</a></li>
+          </div>
+              <div class="shop">
+              <li><a href="#"  id="color">Contact</a></li>
+              <li><a href="#" >Account</a></li>
+              <li><a href="#" >Basket</a></li>
+            </div>
+            </ul>
+      </div>
    <div class="main">
-<h1>Login</h1>
+      <h1 class="word">Login</h1>
 
    </div>
-   <div class="form">
-   <form action="#">
-      <input type="text" placeholder="Email" required> <br> <br>
-      <input type="password" placeholder="Password" required> 
-      <a href="#" class="forget">Forgot your password?</a> 
-      <button><b>SIGN IN ></b></button> 
-      <a href="#" class="create">Create account</a>   
-    </form>
-  
-   </div>
 
+   <div class="wrapper">
+      <div class="form sign-in">
+         
+         <form onsubmit="login(this);return false">
+            <input name="email" type="text" placeholder="Name" required> <br> <br>
+            <input name="pass" type="password" placeholder="Password" required> 
+            <a href="#" class="forget">Forgot your password?</a> 
+            <button><b>SIGN IN</b></button> 
+            <div class="signUp-link">
+               <p>Don't have an account? <a href="#$" class="signUpBtn-link">Sign Up</a></p>
+           </div>
+         </form>
+      </div>
+
+      <div class="form sign-up">
+         <form onsubmit="registration(this);return false">
+            <input name="name" type="text" placeholder="Name" required> <br> <br>
+            <input name="email" type="email" placeholder="Email" required> <br> <br>
+            <input name="pass" type="password" placeholder="Password" required> 
+            <button><b>SIGN IN ></b></button> 
+            <div class="signUp-link">
+               <p>Already have an account? <a href="#" class="signInBtn-link">Sign In</a></p>
+           </div>  
+         </form>
+      </div>
+   </div>
 
    <footer class="foot">
       <div class="anna">AN&NA</div>
@@ -58,6 +82,7 @@
    </div>
    </footer>
     
-
+   <script src="https://code.jquery.com/jquery-3.6.2.js" integrity="sha256-pkn2CUZmheSeyssYw3vMp1+xyub4m+e+QK4sQskvuo4=" crossorigin="anonymous"></script>
+<script src="script.js"></script>
  </body>
  </html>
