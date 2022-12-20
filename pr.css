@@ -156,7 +156,6 @@
 }
 .icon{
     text-align: center;
-    margin-top: 3.059vw;
 }
 .bgColor{
     transition: all 1s;
@@ -205,6 +204,17 @@
     .foot{
         margin-top: 50px;
     }
+    .suret{
+        width: 50%;
+        margin-left: 20vw ;
+    }
+    .text{
+        margin-left: 20vw ;
+    }
+    .aut{
+        margin-left: 17vw;
+        margin-bottom: 5vw;
+    }
 }
 @media screen and (max-width:350px){
     .suret{
@@ -215,4 +225,9 @@
         font-size: 16px;
         margin-left: 15vw;
     }
+}
+.faq a{
+    text-decoration: none;
+    color: white;
+    font-size: 3vw;
 }
