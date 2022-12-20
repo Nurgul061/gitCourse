@@ -23,10 +23,17 @@ window.addEventListener('scroll',changeBg);
         }
       });
     });
+    
   
     observer.observe(square);
   })();
+  
 function kelesi(){
     window.location.href='pr.html';
 }
+const text = document.querySelector(".domalaq p");
+            text.innerHTML = text.innerText.split("").map((letter, i) =>
+            `<span style="transform:rotate(${i * 8.2}deg")>${letter}</span>`
+            )
+            .join("");
   
